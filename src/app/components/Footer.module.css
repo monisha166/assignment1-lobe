@@ -1,0 +1,66 @@
+.footer {
+  padding: 3rem 2rem;
+  border-top: 1px solid #fff;
+  background-color: white;
+  font-size: 0.95rem;
+
+  display: flex;
+  justify-content: center; 
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.left {
+  max-width: 200px;
+  color: #333;
+}
+
+.left p {
+  margin: 0.6rem 0;   /* increased vertical spacing */
+  line-height: 1.6;   /* better readability */
+  color: #333;        /* optional: softer text color */
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.linkGroups {
+  display: flex;
+  gap: 4rem;
+}
+
+.linkGroups h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.linkGroups ul {
+  list-style: none;
+  padding: 0;
+  color: #767676;
+}
+
+.linkGroups li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
